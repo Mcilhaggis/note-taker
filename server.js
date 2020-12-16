@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 
-const PORT = 3003;
+const PORT = 8080;
 //this allows the use of the CSS and Js files
 app.use(express.static('public'));
 
