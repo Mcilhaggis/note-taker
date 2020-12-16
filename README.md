@@ -1,4 +1,4 @@
-# Project Title: README Generator 
+# Project Title: Note Taker 
 ![License](https://img.shields.io/github/license/mcilhaggis/responsive-portfolio)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/mcilhaggis/responsive-portfolio)
@@ -11,9 +11,9 @@ The application’s front end had already been created. The goal was to build th
 
 
 ## Screenshot
-![Screenshot of Note Taker landing page.](/assets/screenshot-1.png "Screenshot of Note Taker landing page.")
+![Screenshot of Note Taker landing page.](public/assets/images/screenshot-1.png "Screenshot of Note Taker landing page.")
 
-![Screenshot of Note Taker storage and writing page.](/assets/screenshot-2.png "Screenshot of Note Taker storage and writing page.")
+![Screenshot of Note Taker storage and writing page.](public/assets/images/screenshot-2.png "Screenshot of Note Taker storage and writing page.")
 
 
 ## Licensing 

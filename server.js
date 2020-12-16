@@ -64,7 +64,9 @@ app.delete('/api/notes/:id', (req, res) => {
     notes = noteList.filter(n => n.id != req.params.id);
     console.log(notes);
 
+
     //rewrite the json file with the note with that particular id removed
+    
     fs.writeFile("db/db.json", JSON.stringify(notes), (err) => {
        if (err) throw err; 
        res.json(notes);
