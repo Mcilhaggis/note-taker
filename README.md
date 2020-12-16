@@ -15,6 +15,8 @@ The application’s front end had already been created. The goal was to build th
 
 ![Screenshot of Note Taker storage and writing page.](public/assets/images/screenshot-2.png "Screenshot of Note Taker storage and writing page.")
 
+## Link 
+The live project can be found here: https://notepad-rm.herokuapp.com/
 
 ## Licensing 
 The licensing used for this project is MIT
