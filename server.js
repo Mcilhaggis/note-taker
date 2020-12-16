@@ -61,16 +61,18 @@ app.post('/api/notes', (req, res) => {
 // Displays a single character, or returns false
 app.delete('/api/notes/:id', (req, res) => {
     //filter out the note with the id clicked
-    notes = noteList.filter(n => n.id != req.params.id)
+    noteList.splice(req.params.id, 1)
+    console.log(noteList)
     // console.log(notes)
 
     //rewrite the json file with the note with that particular id removed
-    fs.writeFile("db/db.json", JSON.stringify(notes), (err) => {
+    fs.writeFile("db/db.json", JSON.stringify(noteList), (err) => {
        if (err) throw err; 
-       res.json(notes);
+       res.json(noteList);
 
     });
   });
+  
 
 
 app.listen(PORT, function(){
